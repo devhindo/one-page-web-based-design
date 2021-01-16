@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="container">
         <nav class="nav">
@@ -22,30 +24,49 @@
             </div>
         </nav>
         <div class="details">
+            <div class="overlay">
+                
+            </div>
+            <img src="./imgs/phone.png" class="phone" alt="">
             <div id="circle">
                 <div class="feature one">
                     <img src="./imgs/processor.png" alt="">
-                    <h1>Processor</h1>
-                    <p>Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)</p>
+                    <div>
+                        <h1>Processor</h1>
+                        <p>Hexa-core</p>
+                    </div>
+
                 </div>
-                <div class="feature tow">
+                <div class="feature two">
                     <img src="./imgs/camera.png" alt="">
-                    <h1>CameraK</h1>
-                    <p>12 MP, f/1.6, 26mm (wide), 1.7µm, dual pixel PDAF, sensor-shift stabilization (IBIS)</p>
+                    <div>
+                        <h1>Camera</h1>
+                        <p>12 MP, f/1.6, 26mm</p>
+                    </div>
                 </div>
                 <div class="feature three">
                     <img src="./imgs/display.png" alt="">
-                    <h1>Display</h1>
-                    <p>6.7 inches, 1284 x 2778 pixels, Super Retina XDR OLED, HDR10, 800 nits (typ), 1200 nits (peak)</p>                    </p>
+                    <div>
+                        <h1>Display</h1>
+                        <p>6.7 inches, 1284 x 2778 pixels</p>
+                    </div>
                 </div>
                 <div class="feature four">
                     <img src="./imgs/battery.png" alt="">
-                    <h1>Battery</h1>
-                    <p>Li-Ion 3687 mAh, non-removable (14.13 Wh)</p>                    </p>
+                    <div>
+                        <h1>Battery</h1>
+                        <p>Li-Ion 3687 mAh, non-removable (14.13 Wh)</p>
+                    </div>
                 </div>
             </div>
         </div>
+<div class="controls">
+    <img src="./imgs/arrow.png" alt="" id="up">
+    <h3>Features</h3>
+    <img src="./imgs/arrow.png" alt="" id="down">
+</div>
     </div>
-
+<script src="./script.js"></script>
 </body>
+
 </html>
